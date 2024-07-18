@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 package org.springframework.samples.petclinic.vets.model;
-
+import org.springframework.stereotype.Repository;
+import org.springframework.samples.petclinic.vets.model.Vet;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
